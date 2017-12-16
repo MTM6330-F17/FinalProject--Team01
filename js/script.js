@@ -4,13 +4,13 @@ jQuery(document).ready(function($){
    $(document).scroll(function() {
       scroll_start = $(this).scrollTop();
       // change nav background to solid
-      if(scroll_start > 400) {
+      if(scroll_start > 420) {
           $('.navbar').addClass('active');
        } else {
           $('.navbar').removeClass('active');
        }
       // display back to top button
-      if(scroll_start > 100) {
+      if(scroll_start > 350) {
       	$('#topbtn').fadeIn();
       }else{
       	$('#topbtn').fadeOut();
@@ -45,10 +45,10 @@ jQuery(document).ready(function($){
 	/* Hamburger Menu show and hide */
 	$('#hammenu').on('click',function(e){
         e.preventDefault();
-        $("nav .menu-item").toggleClass('show');
+        $("nav ul").slideToggle();
 	});
     $("nav .menu-item").on('click',function(){
-        $("nav .menu-item").toggleClass('show');
+        $("nav ul").slideToggle();
     });
 
 });
