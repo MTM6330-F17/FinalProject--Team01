@@ -1,0 +1,69 @@
+@media screen and (max-width:600px) {
+
+/*--------HEADER SECTION------*/
+header {
+
+}
+/*-----NAVIGATION SECTION------*/
+.navbar .active {
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    width: 100%;
+    background-color: #212721;
+}
+nav {
+    width: 100%;
+    background-color: #212721;
+    text-align: center;
+}
+nav .hammenu {
+    display: inline-block;
+    width: auto;
+    padding: 0;
+}
+nav .hammenu span {
+    padding: 0;
+    margin: 0;
+}
+nav a {
+    display: none;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 22.5px;
+    padding-bottom: 22.5px;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    transition: 0.4s;
+}
+nav a.show {
+    display: block;
+}
+nav a:hover:first-child {
+  background-color: #212721;
+}
+nav a:hover {
+  background-color: grey;
+}
+a {
+    width: 100%;
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    line-height: 1.5em;
+}
+} /*ENDING COLN FOR MIN WIDTH FOR MOBILE*/
+@media screen and (min-width:600px) {
+html {
+  background-color: red;
+}
+  nav .hammenu {
+      display: none;
+  }
+nav {
+  width: 100%;
+
+}
+
+}
