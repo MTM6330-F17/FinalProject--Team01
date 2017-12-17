@@ -18,7 +18,7 @@ jQuery(document).ready(function($){
    });
 
    /* Smooth Scroll to the div with ID */
-	$('a[href*=\\#]').click(function(e) {
+$('a[href*=\\#]').click(function(e) {
 		// Chnage the URL
 	    if (location.pathname.replace('/^\//','') == this.pathname.replace('/^\//','') && location.hostname == this.hostname) {
 	    	// get the #name
@@ -44,11 +44,32 @@ jQuery(document).ready(function($){
 
 	/* Hamburger Menu show and hide */
 	$('#hammenu').on('click',function(e){
-        e.preventDefault();
+        e.preventDefault(); //this is always for anchor tag as it will prevent it to open the link
         $("nav ul").slideToggle();
 	});
     $("nav .menu-item").on('click',function(){
         $("nav ul").slideToggle();
     });
+/*---ACCORDIAN ------*/
+//adding click event to the class name .accordiontitle
+$('.accordion').on('click',function(e){
+    if($(this).hasClass('expanded')){
 
+      $(this).children('.accordion-content').slideToggle();
+      $(this).children('.accordion-content').removeClass('expanded');
+      $(this).children('.accordion-title').children('span').removeClass('fa-chevron-up').addClass('fa-chevron-down');
+    }else{
+
+      $('.expanded').children('.accordion-content').slideToggle();
+      $('.expanded').children('.accordion-title').children('span').removeClass('fa-chevron-up').addClass('fa-chevron-down');
+      $('.expanded').removeClass('expanded');
+
+
+      $(this).children('.accordion-content').slideToggle();
+
+      $(this).addClass('expanded');
+
+      $(this).children('.accordion-title').children('span').removeClass('fa-chevron-down').addClass('fa-chevron-up');
+    }
+  });
 });
