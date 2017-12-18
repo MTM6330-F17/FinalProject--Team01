@@ -161,9 +161,10 @@ a{
 footer {
   width: 100%;
   background-color: #212721;
-  height: 50px;
+  height: 60px;
   text-align: center;
   margin: 0;
+  padding: 0;
 }
  /*ENDING COLN FOR MIN WIDTH FOR MOBILE*/
 
