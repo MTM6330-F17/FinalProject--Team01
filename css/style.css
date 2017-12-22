@@ -245,8 +245,11 @@ float: right;
 
  /*Michael's work*/
 
+<<<<<<< HEAD
 @media screen and (min-width:800px) {
 
+=======
+>>>>>>> d314b07978ba5e2785bd7016b4c4915877f3d496
 html {
   background-color: white;
 }
@@ -262,5 +265,8 @@ nav a.show {
     text-align: none;
     margin: 0;
 }
+<<<<<<< HEAD
 
 }
+=======
+>>>>>>> d314b07978ba5e2785bd7016b4c4915877f3d496
