@@ -9,10 +9,15 @@ margin: 0;
 }
 .hero-image{
   width: 100%;
-  height: 400px;
-  background-color: #66A18D;
+  height: 200px;
+  margin: 0;
+  overflow: hidden;
+  background-image: url(../images/4.jpg);
 }
 /*-----NAVIGATION SECTION------*/
+.navbar {
+  margin-bottom:0;
+}
 .navbar.active {
     position: fixed;
     top: 0;
@@ -82,6 +87,7 @@ a {
   text-align: center;
   display: block;
 }
+/*For Sections*/
 section > h2,
 section > div,
 section > p{
@@ -116,15 +122,16 @@ h5{
 }
 /*CSS FOR COURSES PAGE*/
 .danbox  {
-  width: 100%;
   background-color: #212721;
   color: #F0F0F0;
   text-align: center;
   padding: 1em;
+  margin-bottom: 50px;
 }
 /*PARAHGRAPH*/
 p{
   text-align: justify;
+  line-height: 1.8em
 }
 p,ul,li {
   border: 2px;
@@ -156,11 +163,13 @@ a{
 .imagebox {
   width: 200px;
   height: 200px;
-  border-radius: 50%;/*SAUKHA TAREEKA*/
+  border-radius: 50%;
   background-color: #006341;
   float: right;
   margin-left: 50px;
   margin-bottom: 40px;
+  display: none; /*which will be block
+  in the desktop version*/
 }
 
 .accordion-title{
@@ -179,23 +188,80 @@ a{
 footer {
   width: 100%;
   background-color: #212721;
+  color: #F0F0F0;
   height: 60px;
   text-align: center;
-  margin: 0;
+  margin-top: -1.3em;
   padding: 0;
 }
+.row {
+  margin:0;
+  padding: 0;
+}
+/*CSS for Professors Page*/
+.our-professors {
+  margin-top: 4em;
+}
+.image-wrapper {
+  width: 50%;
+  height: 20em;
+  background-color: #006341;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  float: left;
+  margin-top: -1.25em;
+  text-align: center;
+}
+
+.first,.third {
+  margin-right: 1em;
+}
+.second {
+float: right;
+}
+.third {
+  margin-bottom: -2em;
+  padding: 0;
+  border: 0;
+}
+.image-wrapper:last-child {
+  margin-bottom: -50px;
+}
+.circlebox{
+  width: 12em;
+  height: 12em;
+  border-radius: 50%;
+  margin: 3em auto;
+  text-align:center;
+}
+.professors{
+  position: relative;
+  overflow: hidden;
+  z-index: -1;
+  margin: 0;
+}
  /*ENDING COLN FOR MIN WIDTH FOR MOBILE*/
+<<<<<<< HEAD
  /*Michael's work*/
 @media screen and (min-width:600px) {
+=======
+
+@media screen and (min-width:800px) {
+>>>>>>> 00ebf299e0c82e63bf2648e34cddde5bea2de2db
 html {
   background-color: white;
 }
   nav .hammenu {
       display: none;
   }
-nav {
+nav ul {
   width: 100%;
-
+display: inline-block;
 }
-
+nav a.show {
+    display: inline-block;
+    text-align: none;
+    margin: 0;
+}
 }
