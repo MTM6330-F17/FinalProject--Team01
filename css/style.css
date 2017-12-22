@@ -188,7 +188,7 @@ footer {
  /*Michael's work*/
 @media screen and (min-width:600px) {
 html {
-  background-color: red;
+  background-color: white;
 }
   nav .hammenu {
       display: none;
