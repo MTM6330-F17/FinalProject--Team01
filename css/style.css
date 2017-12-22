@@ -242,13 +242,9 @@ float: right;
   margin: 0;
 }
  /*ENDING COLN FOR MIN WIDTH FOR MOBILE*/
-<<<<<<< HEAD
- /*Michael's work*/
-@media screen and (min-width:600px) {
-=======
 
-@media screen and (min-width:800px) {
->>>>>>> 00ebf299e0c82e63bf2648e34cddde5bea2de2db
+ /*Michael's work*/
+
 html {
   background-color: white;
 }
@@ -263,5 +259,4 @@ nav a.show {
     display: inline-block;
     text-align: none;
     margin: 0;
-}
 }
