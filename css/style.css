@@ -185,7 +185,7 @@ footer {
   padding: 0;
 }
  /*ENDING COLN FOR MIN WIDTH FOR MOBILE*/
-
+ /*Michael's work*/
 @media screen and (min-width:600px) {
 html {
   background-color: red;
