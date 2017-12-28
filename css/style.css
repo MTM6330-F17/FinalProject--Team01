@@ -246,11 +246,11 @@ float: right;
 
  /*Michael's work*/
  .sideimage{
-  width: 12em;
-  height: 12em;
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
   margin: 3em auto;
-  text-align:left;
+  text-align:right;
   display:inline-block;
   float:right;
 }
