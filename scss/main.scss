@@ -7,12 +7,16 @@ header {
 width: 100%;
 margin: 0;
 }
-.hero-image{
+.hero-image img{
   width: 100%;
-  height: 200px;
-  margin: 0;
-  overflow: hidden;
-  background-image: url(../images/4.jpg);
+  height: 400px;
+  margin: 0 auto;
+  text-align: center;
+  overflow:visible;
+  background-position:center;
+  background-size: cover;
+  background-repeat: repeat;
+  position: relative;
 
 }
 /*-----NAVIGATION SECTION------*/
@@ -161,11 +165,10 @@ a{
     clear: both;
     display: table;
 }
-.imagebox {
-  width: 200px;
-  height: 200px;
+.ourprogram {
+  width: 25em;
+  height: 25em;
   border-radius: 50%;
-  background-color: #006341;
   float: right;
   margin-left: 50px;
   margin-bottom: 40px;
@@ -199,18 +202,19 @@ footer {
   margin:0;
   padding: 0;
 }
+
+
 /*CSS for Professors Page*/
 .our-professors {
   margin-top: 4em;
 }
 .image-wrapper {
-  width: 50%;
+  width: 100%;
   height: 20em;
   background-color: #006341;
   margin: 0;
   padding: 0;
   border: 0;
-  float: left;
   margin-top: -1.25em;
   text-align: center;
 }
@@ -218,11 +222,7 @@ footer {
 .first,.third {
   margin-right: 1em;
 }
-.second {
-float: right;
-}
 .third {
-  margin-bottom: -2em;
   padding: 0;
   border: 0;
 }
@@ -264,5 +264,27 @@ nav a.show {
     text-align: none;
     margin: 0;
 }
+/*CSS FOR HOMEPAGE (MOSTLY IMAGES)*/
 
+.ourprogram {
+  display: block;
+  background-position: center;
+  background-size: contain;
+  overflow: hidden;
+}
+/*PROFESSORS PAGE*/
+.image-wrapper {
+  width: 50%;
+  float:left
+}
+.second {
+  float:right;
+}
+}
+.first,.third {
+  margin-right: 1em;
+}
+.third {
+  padding: 0;
+  border: 0;
 }
