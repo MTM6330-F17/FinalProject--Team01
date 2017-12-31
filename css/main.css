@@ -39,10 +39,10 @@ nav ul {
   padding: 0;
   margin: 0; }
 
-ul li {
+nav ul li {
   border-top: 2px; }
 
-li {
+nav li {
   margin-left: 10px;
   margin-right: 20px; }
 
@@ -99,7 +99,8 @@ section > p {
 /*HEADINGS*/
 h1, span {
   font-family: sans-serif;
-  margin: 0; }
+  margin: 0;
+  color: white; }
 
 h2, h3, h4 {
   color: #006341;
@@ -162,15 +163,20 @@ a {
   display: table; }
 
 .ourprogram {
-  width: 25em;
-  height: 25em;
+  width: 24em;
+  height: 24em;
   border-radius: 50%;
+  margin-right: 8em;
   float: right;
+  overflow: hidden;
   margin-left: 50px;
   margin-bottom: 40px;
   display: none;
   /*which will be block
   in the desktop version*/ }
+
+.fa-chevron-down {
+  display: block; }
 
 .accordion-title {
   background-color: #006341;
@@ -204,7 +210,7 @@ footer {
 
 .image-wrapper {
   width: 100%;
-  height: 20em;
+  height: 30em;
   background-color: #006341;
   margin: 0;
   padding: 0;
@@ -235,6 +241,9 @@ footer {
   z-index: -1;
   margin: 0; }
 
+.applinfo-image {
+  display: none; }
+
 /*ENDING COLN FOR MIN WIDTH FOR MOBILE*/
 /*Michael's work*/
 @media screen and (min-width: 800px) {
@@ -244,8 +253,11 @@ footer {
   nav .hammenu {
     display: none; }
   nav ul {
-    width: 100%;
+    width: auto;
+    float: right;
     display: inline-block; }
+  nav ul li {
+    float: left; }
   nav a.show {
     display: inline-block;
     text-align: none;
@@ -256,16 +268,33 @@ footer {
     background-position: center;
     background-size: contain;
     overflow: hidden; }
+  .accordion-content {
+    display: block; }
+  .fa-chevron-down {
+    display: none !important; }
   /*PROFESSORS PAGE*/
+  /*.professor-text {
+float: right;
+width: 45%;
+margin-right: 3em;
+}*/
   .image-wrapper {
     width: 50%;
     float: left; }
   .second {
-    float: right; } }
-
-.first, .third {
-  margin-right: 1em; }
-
-.third {
-  padding: 0;
-  border: 0; }
+    float: right; }
+  .first, .third {
+    margin-right: 1em; }
+  .third {
+    padding: 0;
+    margin-right: 2em;
+    border: 0; }
+  .applinfo-image {
+    display: block;
+    width: 30%;
+    height: 40em;
+    margin-left: 2em;
+    float: right; }
+  .textbox {
+    width: 40%;
+    padding-left: 2em; } }
