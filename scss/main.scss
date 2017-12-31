@@ -244,9 +244,6 @@ footer {
   z-index: -1;
   margin: 0;
 }
-.chevron-down {
-  display: block;
-}
  /*ENDING COLN FOR MIN WIDTH FOR MOBILE*/
 
  /*Michael's work*/
@@ -261,12 +258,8 @@ html {
       display: none;
   }
 nav ul {
+  width: 100%;
 display: inline-block;
-float: right;
-}
-nav ul li {
-  display: block !important;
-  float: left;
 }
 nav a.show {
     display: inline-block;
@@ -274,12 +267,7 @@ nav a.show {
     margin: 0;
 }
 /*CSS FOR HOMEPAGE (MOSTLY IMAGES)*/
-.accordion-content {
-  display: block;
-}
-.chevron-down {
-  display: none;
-}
+
 .ourprogram {
   display: block;
   background-position: center;
