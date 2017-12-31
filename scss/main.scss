@@ -202,7 +202,9 @@ footer {
   margin:0;
   padding: 0;
 }
-
+.img-1 {
+  display: none;
+}
 
 /*CSS for Professors Page*/
 .our-professors {
@@ -271,6 +273,11 @@ nav a.show {
   background-position: center;
   background-size: contain;
   overflow: hidden;
+}
+.img-1 {
+display: block;
+float: right;
+width: 40%;
 }
 /*PROFESSORS PAGE*/
 .image-wrapper {
