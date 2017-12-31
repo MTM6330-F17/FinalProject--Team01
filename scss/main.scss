@@ -98,6 +98,10 @@ section > div,
 section > p{
   padding: 0 1em;
 }
+/*for specific lists*/
+li {
+  line-height: 1.8em;
+}
 /*HEADINGS*/
 
 h1,span {
@@ -250,6 +254,12 @@ footer {
 .applinfo-image {
   display: none;
 }
+
+/*home page images*/
+.img-1 {
+  display: none;
+}
+
  /*ENDING COLN FOR MIN WIDTH FOR MOBILE*/
 
  /*Michael's work*/

@@ -96,6 +96,10 @@ section > div,
 section > p {
   padding: 0 1em; }
 
+/*for specific lists*/
+li {
+  line-height: 1.8em; }
+
 /*HEADINGS*/
 h1, span {
   font-family: sans-serif;
@@ -242,6 +246,10 @@ footer {
   margin: 0; }
 
 .applinfo-image {
+  display: none; }
+
+/*home page images*/
+.img-1 {
   display: none; }
 
 /*ENDING COLN FOR MIN WIDTH FOR MOBILE*/
