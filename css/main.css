@@ -238,7 +238,7 @@ footer {
   z-index: -1;
   margin: 0; }
 
-.chevron-down {
+.fa .chevron-down {
   display: block; }
 
 /*ENDING COLN FOR MIN WIDTH FOR MOBILE*/
@@ -262,8 +262,8 @@ footer {
   /*CSS FOR HOMEPAGE (MOSTLY IMAGES)*/
   .accordion-content {
     display: block; }
-  .chevron-down {
-    display: none; }
+  .fa {
+    display: none !important; }
   .ourprogram {
     display: block;
     background-position: center;
