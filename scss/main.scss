@@ -244,7 +244,7 @@ footer {
   z-index: -1;
   margin: 0;
 }
-.fa .chevron-down {
+.chevron-down {
   display: block;
 }
  /*ENDING COLN FOR MIN WIDTH FOR MOBILE*/
@@ -277,8 +277,8 @@ nav a.show {
 .accordion-content {
   display: block;
 }
-.fa {
-  display: none !important;
+.chevron-down {
+  display: none;
 }
 .ourprogram {
   display: block;
