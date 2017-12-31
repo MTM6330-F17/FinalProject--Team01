@@ -238,6 +238,9 @@ footer {
   z-index: -1;
   margin: 0; }
 
+.chevron-down {
+  display: block; }
+
 /*ENDING COLN FOR MIN WIDTH FOR MOBILE*/
 /*Michael's work*/
 @media screen and (min-width: 800px) {
@@ -247,13 +250,20 @@ footer {
   nav .hammenu {
     display: none; }
   nav ul {
-    width: 100%;
-    display: inline-block; }
+    display: inline-block;
+    float: right; }
+  nav ul li {
+    display: block !important;
+    float: left; }
   nav a.show {
     display: inline-block;
     text-align: none;
     margin: 0; }
   /*CSS FOR HOMEPAGE (MOSTLY IMAGES)*/
+  .accordion-content {
+    display: block; }
+  .chevron-down {
+    display: none; }
   .ourprogram {
     display: block;
     background-position: center;
