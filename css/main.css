@@ -208,6 +208,9 @@ footer {
   margin: 0;
   padding: 0; }
 
+.img-1 {
+  display: none; }
+
 /*CSS for Professors Page*/
 .our-professors {
   margin-top: 4em; }
@@ -276,6 +279,7 @@ footer {
     background-position: center;
     background-size: contain;
     overflow: hidden; }
+<<<<<<< HEAD
   .accordion-content {
     display: block; }
   .fa-chevron-down {
@@ -286,6 +290,13 @@ footer {
     float: right;
     margin: 2em; }
   /*CSS FOR PROFESSORS PAGE*/
+=======
+  .img-1 {
+    display: block;
+    float: right;
+    width: 40%; }
+  /*PROFESSORS PAGE*/
+>>>>>>> master
   .image-wrapper {
     width: 50%;
     float: left; }
