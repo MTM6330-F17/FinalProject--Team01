@@ -9,7 +9,7 @@ margin: 0;
 }
 .hero-image img{
   width: 100%;
-  height: 400px;
+  height: 300px;
   margin: 0 auto;
   text-align: center;
   overflow:visible;
@@ -137,6 +137,7 @@ h5{
   text-align: center;
   padding: 1em;
   margin-bottom: 50px;
+  margin-top: -0.5em;
 }
 /*PARAHGRAPH*/
 p{
@@ -291,6 +292,10 @@ nav a.show {
     display: inline-block;
     text-align: none;
     margin: 0;
+}
+/*HEADER IMAGE*/
+.hero-image img{
+  height: 400px;
 }
 /*CSS FOR HOMEPAGE (MOSTLY IMAGES)*/
 
