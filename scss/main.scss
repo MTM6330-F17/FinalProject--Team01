@@ -253,6 +253,13 @@ footer {
 .applinfo-image {
   display: none;
 }
+p.professor-text.clearfix {
+  padding: 0 2em;
+  float: right;
+}
+.textbox {
+  padding: 0 2em;
+}
 
 /*home page images*/
 .img-1 {
@@ -306,6 +313,7 @@ nav a.show {
   float: right;
   margin: 2em;
 }
+
 
 /*CSS FOR PROFESSORS PAGE*/
 .image-wrapper {
