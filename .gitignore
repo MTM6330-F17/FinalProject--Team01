@@ -1,0 +1,10 @@
+.DS_Store
+.git/
+node_modules/
+scss/main.scss
+images/.DS_Store
+css/main.css
+css/min/main.css
+.DS_Store
+index.html
+scss/main.scss
