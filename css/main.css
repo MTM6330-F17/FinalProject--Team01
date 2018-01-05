@@ -257,7 +257,7 @@ footer {
 @media screen and (min-width: 800px) {
   html {
     background-color: white; }
-  /**/
+  /*NAVIGATION*/
   nav .hammenu {
     display: none; }
   nav ul {
@@ -280,12 +280,12 @@ footer {
     display: block; }
   .fa-chevron-down {
     display: none !important; }
-  /*PROFESSORS PAGE*/
-  /*.professor-text {
-float: right;
-width: 45%;
-margin-right: 3em;
-}*/
+  .img-1 {
+    display: block;
+    width: 20em;
+    float: right;
+    margin: 2em; }
+  /*CSS FOR PROFESSORS PAGE*/
   .image-wrapper {
     width: 50%;
     float: left; }
@@ -302,6 +302,10 @@ margin-right: 3em;
     width: 30%;
     height: 40em;
     margin-left: 2em;
+    float: right; }
+  p.professor-text.clearfix {
+    width: 40%;
+    padding-right: 2em;
     float: right; }
   .textbox {
     width: 40%;

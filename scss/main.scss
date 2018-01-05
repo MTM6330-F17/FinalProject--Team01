@@ -269,7 +269,7 @@ footer {
 html {
   background-color: white;
 }
-/**/
+/*NAVIGATION*/
   nav .hammenu {
       display: none;
   }
@@ -302,7 +302,12 @@ nav a.show {
 }
 .img-1 {
   display: block;
+  width: 20em;
+  float: right;
+  margin: 2em;
 }
+
+/*CSS FOR PROFESSORS PAGE*/
 .image-wrapper {
   width: 50%;
   float:left
@@ -325,7 +330,11 @@ nav a.show {
   margin-left: 2em;
   float: right;
 }
-
+p.professor-text.clearfix {
+  width: 40%;
+  padding-right: 2em;
+  float: right;
+}
 .textbox {
   width: 40%;
   padding-left: 2em;
