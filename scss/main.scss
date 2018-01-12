@@ -140,6 +140,9 @@ h5{
   margin-bottom: 50px;
   margin-top: -0.5em;
 }
+.sideimage {
+display: none;
+ }
 /*PARAHGRAPH*/
 p{
   text-align: justify;
@@ -149,6 +152,7 @@ p,ul,li {
   border: 2px;
   color: rgba(33,39,33,0.8);
   text-decoration: none;
+  font-family: Raleway;
 }
 a{
   color: blue;
@@ -227,6 +231,7 @@ footer {
   border: 0;
   margin-top: -1.25em;
   text-align: center;
+  overflow: auto;
 }
 
 .first,.third {
@@ -256,8 +261,9 @@ footer {
   display: none;
 }
 p.professor-text.clearfix {
-  padding: 0 2em;
+  padding: 0 1em;
   float: right;
+  width: 45%;
 }
 .textbox {
   padding: 0 2em;
@@ -269,11 +275,16 @@ p.professor-text.clearfix {
 }
 .headertext {
   width: 100%;
-  position: absolute;
+  position: relative;
   margin: 0 auto;
-  top: 10em;
+  bottom: -10em;
+  margin-top: -3.5em;
   z-index: 2;
   text-align: center;
+}
+.schedule {
+  width: 100%;
+
 }
 
  /*ENDING COLN FOR MIN WIDTH FOR MOBILE*/
@@ -351,7 +362,7 @@ nav a.show {
 }
 .third {
   padding: 0;
-  margin-right: 2em;
+  margin-right: 1em;
   border: 0;
 }
 .applinfo-image {
@@ -362,12 +373,31 @@ nav a.show {
   float: right;
 }
 p.professor-text.clearfix {
-  width: 40%;
-  padding-right: 2em;
-  float: right;
+  padding-right: 1em;
+  overflow: hidden;
+  float: none !important;
 }
 .textbox {
   width: 40%;
   padding-left: 2em;
 }
+
+/*CSS FOR COURSES PAGE*/
+.sideimage {
+  width: 20em;
+  height: 20em;
+  border-radius: 50%;
+  margin-left: 6em;
+  margin-right: 6em;
+  float: right;
+  display: block;
+ }
+ .text-wrapper {
+   height: 22em;
+ }
+}
+.schedule {
+  width: 60%;
+  margin: 0 10em;
+
 }
