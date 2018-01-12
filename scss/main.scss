@@ -130,6 +130,7 @@ h5{
   padding-top: 15px;
   color: #F0F0F0;
 }
+
 /*CSS FOR COURSES PAGE*/
 .danbox  {
   background-color: #212721;
@@ -266,6 +267,14 @@ p.professor-text.clearfix {
 .img-1 {
   display: none;
 }
+.headertext {
+  width: 100%;
+  position: absolute;
+  margin: 0 auto;
+  top: 10em;
+  z-index: 2;
+  text-align: center;
+}
 
  /*ENDING COLN FOR MIN WIDTH FOR MOBILE*/
 
@@ -296,6 +305,15 @@ nav a.show {
 /*HEADER IMAGE*/
 .hero-image img{
   height: 400px;
+}
+
+.headertext {
+  width: 100%;
+  position: absolute;
+  margin: 0 auto;
+  top: 15em;
+  z-index: 2;
+  text-align: center;
 }
 /*CSS FOR HOMEPAGE (MOSTLY IMAGES)*/
 
