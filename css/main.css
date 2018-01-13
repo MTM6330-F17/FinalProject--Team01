@@ -360,5 +360,4 @@ p.professor-text.clearfix {
     overflow: hidden; } }
 
 .schedule {
-  width: 60%;
-  margin: 0 10em; }
+  width: 100%; }
