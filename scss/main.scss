@@ -1,3 +1,6 @@
+@import 'custom';
+
+
 body{
   margin: 0;
   padding: 0;
@@ -32,7 +35,7 @@ margin: 0;
 nav {
     width: 100%;
     text-align: center;
-    background-color: rgba(33,39,33,1);
+    background-color: $charcoal;
 }
 nav ul {
   list-style-type: none;
@@ -55,7 +58,7 @@ nav .hammenu {
 nav .hammenu span {
     padding: 0;
     margin: 0;
-    background-color: rgba(33,39,33,0.1);
+    background-color: $charcoal;
 }
 nav a {
     display: block;
@@ -63,7 +66,7 @@ nav a {
     padding-top: 22.5px;
     padding-bottom: 22.5px;
     font-size: 20px;
-    color: white;
+    color: $off-white;
     transition: 0.4s;
     font-family: sans-serif;
 
@@ -74,7 +77,7 @@ nav a.show {
     margin: 0;
 }
 nav a:hover:first-child {
-  background-color: rgba(33,39,33,0.0);
+  background-color: $charcoal;
 }
 nav a:hover {
   background-color: rgba(33,39,33,0.5);
@@ -82,7 +85,7 @@ nav a:hover {
 a {
     width: 100%;
     text-decoration: none;
-    color: white;
+    color: $off-white;
     font-size: 1.2em;
     line-height: 1.5em;
 }
@@ -110,7 +113,7 @@ h1,span {
   color: white;
 }
 h2,h3,h4 {
-  color: #006341;
+  color: $algonquin-green;
   font-family: sans-serif;
 }
 h2 {
@@ -122,19 +125,19 @@ h3 {
 }
 h4 {
   font-size: 1em;
-  color: rgba(33,39,33,0.8)
+  color: $charcoal;
 }
 h5{
   font-size: 0.8em;
   font-family: sans-serif;
   padding-top: 15px;
-  color: #F0F0F0;
+  color: $off-white;
 }
 
 /*CSS FOR COURSES PAGE*/
 .danbox  {
-  background-color: #212721;
-  color: #F0F0F0;
+  background-color: $dark-grey;
+  color: $off-white;
   text-align: center;
   padding: 1em;
   margin-bottom: 50px;
@@ -150,7 +153,7 @@ p{
 }
 p,ul,li {
   border: 2px;
-  color: rgba(33,39,33,0.8);
+  color: $dark-grey;
   text-decoration: none;
   font-family: Raleway;
 }
@@ -169,7 +172,7 @@ a{
 
 .topbtn span {
     margin: 0;
-    color: #F0F0F0;
+    color: $off-white;
 }
 .clearfix::after {
     content: "";
@@ -192,8 +195,8 @@ a{
   display: block;
 }
 .accordion-title{
-  background-color: #006341;
-  color: #F0F0F0;
+  background-color: $algonquin-green;
+  color: $off-white;
   padding-top: 20px;
   padding-bottom: 20px;
   margin: 0;
@@ -206,7 +209,7 @@ a{
 }
 footer {
   width: 100%;
-  background-color: #212721;
+  background-color: $dark-grey;
   color: #F0F0F0;
   height: 60px;
   text-align: center;
@@ -394,6 +397,7 @@ p.professor-text.clearfix {
  }
  .text-wrapper {
    height: 22em;
+   overflow: hidden;
  }
 }
 .schedule {

@@ -54,7 +54,7 @@ nav .hammenu {
 nav .hammenu span {
   padding: 0;
   margin: 0;
-  background-color: rgba(33, 39, 33, 0.1); }
+  background-color: #212721; }
 
 nav a {
   display: block;
@@ -62,7 +62,7 @@ nav a {
   padding-top: 22.5px;
   padding-bottom: 22.5px;
   font-size: 20px;
-  color: white;
+  color: #F0F0F0F0;
   transition: 0.4s;
   font-family: sans-serif; }
 
@@ -72,7 +72,7 @@ nav a.show {
   margin: 0; }
 
 nav a:hover:first-child {
-  background-color: rgba(33, 39, 33, 0); }
+  background-color: #212721; }
 
 nav a:hover {
   background-color: rgba(33, 39, 33, 0.5); }
@@ -80,7 +80,7 @@ nav a:hover {
 a {
   width: 100%;
   text-decoration: none;
-  color: white;
+  color: #F0F0F0F0;
   font-size: 1.2em;
   line-height: 1.5em; }
 
@@ -119,18 +119,18 @@ h3 {
 
 h4 {
   font-size: 1em;
-  color: rgba(33, 39, 33, 0.8); }
+  color: #212721; }
 
 h5 {
   font-size: 0.8em;
   font-family: sans-serif;
   padding-top: 15px;
-  color: #F0F0F0; }
+  color: #F0F0F0F0; }
 
 /*CSS FOR COURSES PAGE*/
 .danbox {
   background-color: #212721;
-  color: #F0F0F0;
+  color: #F0F0F0F0;
   text-align: center;
   padding: 1em;
   margin-bottom: 50px;
@@ -146,7 +146,7 @@ p {
 
 p, ul, li {
   border: 2px;
-  color: rgba(33, 39, 33, 0.8);
+  color: #212721;
   text-decoration: none;
   font-family: Raleway; }
 
@@ -164,7 +164,7 @@ a {
 
 .topbtn span {
   margin: 0;
-  color: #F0F0F0; }
+  color: #F0F0F0F0; }
 
 .clearfix::after {
   content: "";
@@ -189,7 +189,7 @@ a {
 
 .accordion-title {
   background-color: #006341;
-  color: #F0F0F0;
+  color: #F0F0F0F0;
   padding-top: 20px;
   padding-bottom: 20px;
   margin: 0; }
@@ -356,7 +356,8 @@ p.professor-text.clearfix {
     float: right;
     display: block; }
   .text-wrapper {
-    height: 22em; } }
+    height: 22em;
+    overflow: hidden; } }
 
 .schedule {
   width: 60%;
